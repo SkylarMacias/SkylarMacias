@@ -1,0 +1,248 @@
+/* Fonts */
+.font-1{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.font-2{
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+/* Elements */
+.header{
+    position: fixed;
+    top: 0px;
+}
+    .h-left{
+        text-align: center;
+    }
+
+/* .main{
+    width: 100vw!important;
+} */
+
+@media only screen and (max-width: 481px){
+    .h-left, .h-right{
+        font-size: 1.2rem;
+    }
+    .h-right{
+        text-align: right;
+    }
+    .bio p, .projects p{
+        font-size: 1.3rem!important;
+        text-align: left!important;
+    }
+    .big-text, .bullets, .bio, .gold, .projects, .contact, .h-left, .h-right{
+        position: static!important;
+        transform: none!important;
+    }
+    .bullets, .bio, .gold, .projects, .contact{
+        margin-top: 25px!important;
+    }
+    .bullets h2{
+        font-size: 1.4rem!important;
+    }
+    .bullets li{
+        font-size: 1.1rem!important;
+    }
+    .gold, .line-1, .line-2, .line-3{
+        display: none;
+    }
+    .big-text{
+        font-size: 1.7rem;
+        margin-top: 80px!important;
+        margin-left: 12px!important;
+    }
+    .technologies img{
+        height: 40px!important;
+        padding-right: 2px!important;
+    }
+    .contact{
+        margin-left: 0;
+    }
+        .contact h2{
+            text-align: center;
+        }
+        .contact .details {
+            padding-left: 10px!important;
+        }
+        .contact h5, li{
+            font-size: 1.1rem!important;
+        }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .big-text, .bullets, .bio, .gold, .projects, .contact{
+        position: static!important;
+        transform: none!important;
+    }
+    .bullets, .bio, .gold, .projects, .contact{
+        margin-top: 25px!important;
+    }
+    .gold, .line-1, .line-2, .line-3{
+        display: none;
+    }
+    .big-text{
+        font-size: 2.1rem;
+        margin-top: 25vh;
+    }
+    .contact{
+        margin-left: 0;
+    }
+        .contact h2{
+            text-align: center;
+        }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 768px){
+    .big-text, .bullets, .bio, .gold, .projects, .contact{
+        position: static!important;
+        transform: none!important;
+    }
+    .bullets, .bio, .gold, .projects, .contact{
+        margin-top: 30px!important;
+    }
+    .gold, .line-1, .line-2, .line-3{
+        display: none;
+    }
+    .big-text{
+        font-size: 3rem;
+        margin-top: 25vh;
+    }
+    .contact{
+        margin-left: 0;
+    }
+        .contact h2{
+            text-align: center;
+        }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px){
+    .big-text, .bullets, .bio, .gold, .projects, .contact{
+        position: static!important;
+        transform: none!important;
+    }
+    .bullets, .bio, .gold, .projects, .contact{
+        margin-top: 30px!important;
+    }
+    .gold{
+        display: none;
+    }
+    .big-text{
+        font-size: 3rem;
+        margin-top: 25vh;
+    }
+    .contact{
+        margin-left: 0;
+    }
+        .contact h2{
+            text-align: center;
+        }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1300px){
+    .big-text{
+        font-size: 6.75vh
+    }
+}
+
+@media only screen and (min-width: 1301px){
+    .big-text{
+        font-size: 8vh
+    }
+}
+
+.big-text{
+    position: absolute;
+    margin-top: 32.2vh;
+}
+    #red{
+        color: goldenrod;
+    }
+
+.line-1{
+    position: fixed;
+    right: 0;
+    margin-top: 13vh;
+    height: 4px;
+    width: 50vw;
+    background-color: goldenrod;
+}
+.line-2{
+    position: fixed;
+    right: 0;
+    margin-top: 21vh;
+    height: 4px;
+    width: 30vw;
+    background-color: goldenrod;
+}
+.line-3{
+    position: fixed;
+    right: 0;
+    margin-top: 34vh;
+    height: 4px;
+    width: 10vw;
+    background-color: goldenrod;
+}
+
+
+.bio{
+    position: absolute;
+    margin-top: 100vh;
+    font-size: 1.5em;
+}
+
+.gold{
+    position: absolute;
+    left: -15px;
+    background-color: goldenrod;
+    height: 102vh;
+    margin-top: 95vh;
+}
+
+.bullets{
+    position: absolute;
+    margin-top: 100vh;
+}
+    li{
+        font-size: 1.4rem;
+    }
+
+.projects{
+    position: absolute;
+    font-size: 1.5em;
+    background-color: white
+}
+a{
+    color: black;
+}
+.hypefeed-header{
+    background-color: goldenrod;
+}
+.hf-photo{
+    width:100%;
+    height: auto;
+}
+.hfi-frame{
+    border: 1px solid goldenrod;
+}
+.technologies img{
+    height: 60px;
+    width: auto;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    position: absolute;
+    font-size: 1.5em;
+    left: -15px;
+    overflow: scroll
+}
+    .contact h2{
+        width: 100%;
+        background-color: goldenrod;
+        }
+    .contact .details{
+        border: 1px solid goldenrod;
+    }
+
