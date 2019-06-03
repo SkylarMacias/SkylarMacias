@@ -27,7 +27,7 @@
         font-size: 1.3rem!important;
         text-align: left!important;
     }
-    .big-text, .bullets, .bio, .gold, .projects, .contact, .h-left, .h-right{
+    .big-text, .bullets, .bio, .gold, .projects, .contact, .h-left, .h-right, .header{
         position: static!important;
         transform: none!important;
     }
@@ -68,7 +68,7 @@
 
 
 @media only screen and (min-width: 481px) and (max-width: 767px){
-    .big-text, .bullets, .bio, .gold, .projects, .contact{
+    .big-text, .bullets, .bio, .gold, .projects, .contact, .h-left, .h-right, .header{
         position: static!important;
         transform: none!important;
     }
